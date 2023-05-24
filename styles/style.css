@@ -669,6 +669,8 @@ a {
   .image img {
     display: block;
     margin: auto;
+    width: 100%;
+    height: auto;
   }
   .controls {
     top: auto;
