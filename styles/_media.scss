@@ -35,7 +35,8 @@
   }
   .header-content .left-header .image {
     margin: 0 auto;
-    width: 90%;
+    width: 90% !important;
+    max-height: auto;
   }
 
   .controls {
@@ -109,8 +110,8 @@
     }
   }
   .contact-content-con .left-contact .hand {
-    top: 14rem;
-    left: 5.9rem;
+    top: 14rem !important;
+    left: 5.9rem !important;
   }
   .contact-container {
     .main-title {
