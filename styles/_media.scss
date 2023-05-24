@@ -39,7 +39,14 @@
   .header-content .left-header .image {
     margin: 0 auto;
     width: 90% !important;
-    
+    .image{
+      width: 50%;
+      height: 50%;
+    }
+    img{
+      max-width: 50%;
+      height: 50%;
+    }
   }
 
   .controls {

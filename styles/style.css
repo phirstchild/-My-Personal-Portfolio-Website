@@ -666,6 +666,14 @@ a {
     margin: 0 auto;
     width: 90% !important;
   }
+  .header-content .left-header .image .image {
+    width: 50%;
+    height: 50%;
+  }
+  .header-content .left-header .image img {
+    max-width: 50%;
+    height: 50%;
+  }
   .controls {
     top: auto;
     bottom: 0;
