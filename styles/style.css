@@ -712,6 +712,7 @@ a {
   }
   .about-stats .progress-bars {
     grid-template-columns: repeat(1, 1fr);
+    margin-left: 30px;
   }
   .port-text {
     margin-top: 5rem;
