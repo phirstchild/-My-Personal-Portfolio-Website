@@ -666,6 +666,10 @@ a {
     margin: 0 auto;
     width: 90% !important;
   }
+  .image img {
+    display: block;
+    margin: auto;
+  }
   .controls {
     top: auto;
     bottom: 0;
@@ -717,9 +721,14 @@ a {
   }
   .portfolios .portfolio-item {
     margin-right: 4rem;
+    margin-bottom: 4rem;
   }
   .portfolios .portfolio-item img {
     width: 100% !important;
+  }
+  .portfolios .hover-items {
+    width: 100% !important;
+    height: 450px !important;
   }
   .contact-content-con {
     flex-direction: column;

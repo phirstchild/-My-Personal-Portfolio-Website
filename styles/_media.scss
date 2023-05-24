@@ -40,6 +40,12 @@
     margin: 0 auto;
     width: 90% !important;
   }
+  .image{
+    img{
+      display: block;
+      margin: auto;
+    }
+  }
   .controls {
     top: auto;
     bottom: 0;
@@ -96,9 +102,14 @@
     grid-template-columns: repeat(1, 1fr) !important;
     .portfolio-item {
       margin-right: 4rem;
+      margin-bottom: 4rem;
       img {
         width: 100% !important;
       }
+    }
+    .hover-items {
+      width: 100% !important;
+      height: 450px !important;
     }
   }
 
