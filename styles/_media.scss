@@ -32,11 +32,14 @@
       text-align: center;
       padding-top: 3rem;
     }
+    p {
+      text-align: center;
+    }
   }
   .header-content .left-header .image {
     margin: 0 auto;
     width: 90% !important;
-    max-height: auto;
+    
   }
 
   .controls {
@@ -290,7 +293,3 @@
     }
   }
 }
-
-
-
-     
