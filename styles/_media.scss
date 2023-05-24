@@ -39,16 +39,8 @@
   .header-content .left-header {
     margin: 0 auto;
     width: 90% !important;
-    .image{
-      width: 70%;
-      height: 70%;
-    }
-    img{
-      max-width: 70%;
-      height: 70%;
-    }
+   
   }
-
   .controls {
     top: auto;
     bottom: 0;
@@ -102,7 +94,7 @@
     margin-top: 5rem;
   }
   .portfolios {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(1, 1fr) !important;
     padding-bottom: 6rem;
     margin-top: 1rem;
   }
