@@ -20,6 +20,8 @@
 }
 
 .light-mode {
+  --color-primary: #a92f56cb;
+  --color-secondary: #33ffc1;
   --color-primary: #000;
   --color-secondary: #8566f5;
   --color-white: #454e56;
@@ -97,7 +99,7 @@ a {
   top: 0;
   z-index: -1;
   -webkit-clip-path: polygon(0 0, 46% 0, 79% 100%, 0% 100%);
-          clip-path: polygon(0 0, 46% 0, 79% 100%, 0% 100%);
+  clip-path: polygon(0 0, 46% 0, 79% 100%, 0% 100%);
 }
 .header-content image {
   border-radius: var(--br-sm-2);
@@ -112,7 +114,7 @@ a {
   max-width: 60%;
   height: 60%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   transition: all 0.4s ease-in-out;
   filter: grayscale(100%);
 }
@@ -364,7 +366,7 @@ a {
 
 .portfolios {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   grid-gap: 1rem;
   margin-top: 1rem;
   margin-left: 5rem;
@@ -376,10 +378,10 @@ a {
   padding-top: 3rem;
 }
 .portfolios .portfolio-item img {
-  width: 80%;
-  height: 400px;
+  width: 600px;
+  height: 300px;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   border-radius: 15px;
 }
 .portfolios .portfolio-item a {
@@ -390,8 +392,8 @@ a {
   color: white;
 }
 .portfolios .portfolio-item .hover-items {
-  width: 90%;
-  height: 100%;
+  width: 600px;
+  height: 350px;
   background-color: var(--color-secondary);
   position: absolute;
   left: 0;
@@ -404,6 +406,7 @@ a {
   opacity: 0;
   transform: scale(0);
   transition: all 0.4s ease-in-out;
+  margin-top: 2rem;
 }
 .portfolios .portfolio-item .hover-items h3 {
   font-size: 1.5rem;
@@ -717,9 +720,6 @@ a {
     grid-template-columns: repeat(1, 1fr);
     margin-left: 30px;
   }
-  .port-text {
-    margin-top: 5rem;
-  }
   .portfolios {
     grid-template-columns: repeat(1, 1fr) !important;
   }
@@ -728,11 +728,12 @@ a {
     margin-bottom: 4rem;
   }
   .portfolios .portfolio-item img {
-    width: 100% !important;
+    width: 150px;
+    height: 300px;
   }
   .portfolios .hover-items {
-    width: 100% !important;
-    height: 450px !important;
+    width: 150px !important;
+    height: 350px !important;
   }
   .contact-content-con {
     flex-direction: column;
@@ -905,4 +906,4 @@ a {
   .main-title h2 .bg-text {
     font-size: 5.5rem;
   }
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */

@@ -5,8 +5,8 @@
   list-style: none;
 }
 :root {
-  --color-primary: #a92f56cb;
-  --color-secondary: #33ffc1;
+  --color-primary: #000;
+  --color-secondary: #8566f5;
   --color-white: #ffffff;
   --color-black: #000;
   --br-sm-2: 14px;
@@ -18,8 +18,8 @@
   --color-grey-5: #2a2e35;
 }
 .light-mode {
-  --color-primary: #000;
-  --color-secondary: #8566f5;
+  --color-primary: #a92f56cb;
+  --color-secondary: #33ffc1;
   --color-white: #454e56;
   --color-black: #000;
   --color-grey0: #f8f8f8;
@@ -357,7 +357,7 @@ a {
 
 .portfolios {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   grid-gap: 1rem;
   margin-top: 1rem;
   margin-left: 5rem;
@@ -367,8 +367,8 @@ a {
     margin-right: 10px;
     padding-top: 3rem;
     img {
-      width: 80%;
-      height: 400px;
+      width: 600px;
+      height: 300px;
       object-fit: cover;
       border-radius: 15px;
     }
@@ -380,8 +380,8 @@ a {
       color: white;
     }
     .hover-items {
-      width: 90%;
-      height: 100%;
+      width: 600px;
+      height: 350px;
       background-color: var(--color-secondary);
       position: absolute;
       left: 0;
@@ -394,6 +394,7 @@ a {
       opacity: 0;
       transform: scale(0);
       transition: all 0.4s ease-in-out;
+      margin-top: 2rem;
       h3 {
         font-size: 1.5rem;
         color: white;

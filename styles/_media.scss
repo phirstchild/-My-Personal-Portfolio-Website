@@ -99,23 +99,19 @@
     }
   }
 
-  .port-text {
-    margin-top: 5rem;
-  }
   .portfolios {
     grid-template-columns: repeat(1, 1fr) !important;
     .portfolio-item {
       margin-right: 4rem;
       margin-bottom: 4rem;
       img {
-        width: 100% !important;
-        height: auto;
-        display: block;
+        width: 150px;
+        height: 300px;
       }
     }
     .hover-items {
-      width: 100% !important;
-      height: 450px !important;
+      width: 150px !important;
+      height: 350px !important;
     }
   }
 
