@@ -729,6 +729,7 @@ a {
   .portfolios .portfolio-item {
     margin-bottom: 4rem;
     margin-right: 3rem;
+    padding-top: 1rem;
   }
   .portfolios .portfolio-item img {
     width: 290px;
