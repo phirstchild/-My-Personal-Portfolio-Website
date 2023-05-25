@@ -6,8 +6,8 @@
 }
 
 :root {
-  --color-primary: #a92f56cb;
-  --color-secondary: #33ffc1;
+  --color-primary: #000;
+  --color-secondary: #8566f5;
   --color-white: #ffffff;
   --color-black: #000;
   --br-sm-2: 14px;
@@ -22,8 +22,6 @@
 .light-mode {
   --color-primary: #a92f56cb;
   --color-secondary: #33ffc1;
-  --color-primary: #000;
-  --color-secondary: #8566f5;
   --color-white: #454e56;
   --color-black: #000;
   --color-grey0: #f8f8f8;
@@ -99,7 +97,7 @@ a {
   top: 0;
   z-index: -1;
   -webkit-clip-path: polygon(0 0, 46% 0, 79% 100%, 0% 100%);
-  clip-path: polygon(0 0, 46% 0, 79% 100%, 0% 100%);
+          clip-path: polygon(0 0, 46% 0, 79% 100%, 0% 100%);
 }
 .header-content image {
   border-radius: var(--br-sm-2);
@@ -114,7 +112,7 @@ a {
   max-width: 60%;
   height: 60%;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
   transition: all 0.4s ease-in-out;
   filter: grayscale(100%);
 }
@@ -381,7 +379,7 @@ a {
   width: 600px;
   height: 300px;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
   border-radius: 15px;
 }
 .portfolios .portfolio-item a {
@@ -613,7 +611,7 @@ a {
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  background-color: var(--color-black);
+  background-color: var(--color-secondary);
   cursor: pointer;
   position: fixed;
   display: flex;
@@ -720,20 +718,23 @@ a {
     grid-template-columns: repeat(1, 1fr);
     margin-left: 30px;
   }
+  .port-text {
+    margin-top: 5rem;
+  }
   .portfolios {
     grid-template-columns: repeat(1, 1fr) !important;
   }
   .portfolios .portfolio-item {
-    margin-right: 4rem;
-    margin-bottom: 4rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
   }
   .portfolios .portfolio-item img {
-    width: 150px;
+    width: 250px;
     height: 300px;
   }
   .portfolios .hover-items {
-    width: 150px !important;
-    height: 350px !important;
+    width: 350px !important;
+    height: 320px !important;
   }
   .contact-content-con {
     flex-direction: column;
@@ -906,4 +907,4 @@ a {
   .main-title h2 .bg-text {
     font-size: 5.5rem;
   }
-} /*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
