@@ -725,7 +725,6 @@ a {
     grid-template-columns: repeat(1, 1fr) !important;
   }
   .portfolios .portfolio-item {
-    margin-right: 2rem;
     margin-bottom: 2rem;
   }
   .portfolios .portfolio-item img {
@@ -733,8 +732,8 @@ a {
     height: 300px;
   }
   .portfolios .hover-items {
-    width: 350px !important;
-    height: 320px !important;
+    width: 280px !important;
+    height: 350px !important;
   }
   .contact-content-con {
     flex-direction: column;

@@ -106,7 +106,6 @@
   .portfolios {
     grid-template-columns: repeat(1, 1fr) !important;
     .portfolio-item {
-      margin-right: 2rem;
       margin-bottom: 2rem;
       img {
         width: 250px;
@@ -114,8 +113,8 @@
       }
     }
     .hover-items {
-      width: 350px !important;
-      height: 320px !important;
+      width: 280px !important;
+      height: 350px !important;
     }
   }
 
