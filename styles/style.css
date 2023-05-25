@@ -723,10 +723,11 @@ a {
   }
   .portfolios {
     grid-template-columns: repeat(1, 1fr) !important;
+    margin-left: 2rem;
   }
   .portfolios .portfolio-item {
     margin-bottom: 2rem;
-    margin-left: 1rem;
+    margin-left: 2rem;
     margin-right: 4rem !important;
   }
   .portfolios .portfolio-item img {
